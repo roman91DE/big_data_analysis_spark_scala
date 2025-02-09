@@ -1,7 +1,8 @@
 course := "bigdata"
 assignment := "wikipedia"
 
-scalaVersion := "3.3.0"
+//scalaVersion := "3.3.0"
+scalaVersion := "3.3.4"
 scalacOptions ++= Seq("-language:implicitConversions", "-deprecation")
 libraryDependencies ++= Seq(
   "org.scalameta" %% "munit" % "0.7.26" % Test,
