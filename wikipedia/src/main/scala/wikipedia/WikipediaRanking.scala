@@ -158,6 +158,10 @@ object WikipediaRanking extends WikipediaRankingInterface:
 
     /* Output the speed of each ranking */
     println(timing)
+    
+    // added this after grading
+    langsRanked3.foreach(println)
+
     sc.stop()
 
   val timing = new StringBuffer
